@@ -120,7 +120,7 @@
 
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-10">
+            <div class="col-12 col-md-11">
                 <div class="row margen_80">
                     <div class="col-sm-11 col-md-4 margen_30">
                         <div class="titulo_uno">
@@ -137,7 +137,7 @@
                                     
                                 </div>
                                 <div class="col-12 col-sm-6 col-md-12">
-                                    <img class='al_100' src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/mg_0208_0147-u193-fr.jpg" alt="">
+                                    <img class='al_100' src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/1-u192-fr2.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -175,7 +175,7 @@
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-md-12">
-                                    <img class='al_100' src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/mg_0208_0147-u193-fr.jpg" alt="">
+                                    <img class='al_100' src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/drew-3-bw-adam-rozanas-photography-c-u196-fr2.jpg" alt="">
                                 </div>
                             </div>
                         </div>
