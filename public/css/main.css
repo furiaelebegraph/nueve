@@ -349,7 +349,7 @@ body {
 }
 
 .footer p{
-    margin: 0 auto;
+    color:white;
 }
 
 
@@ -724,6 +724,13 @@ body {
     align-self: center;
 }
 
+
+.imagenes_galeria{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 /* TEMPLATE 4 */
 @media (min-width: 688px){
     .wrap_bloque1{
@@ -742,7 +749,7 @@ body {
         cursor: pointer;
         padding: 10px 25px;
         color: #7F7F7F;
-        font-size: 15px;
+        font-size: 12px;
     }
     .navegador_escritorio{
         display: flex;

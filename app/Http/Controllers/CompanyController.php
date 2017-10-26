@@ -41,13 +41,13 @@ class CompanyController extends Controller
             if ($request->hasFile('imagen')) {
                 $imagen = $request->file('imagen');
                 $filename = time().'.'.$imagen->getClientOriginalExtension();
-                $path = 'img/ima/'.$filename;
+                $path = 'img/company/'.$filename;
                 Image::make($imagen)->resize(null, 400, function ($constraint) {
                     $constraint->aspectRatio();
                     $constraint->upsize();
                 })->save($path);
 
-                $company->imagen = 'img/ima/'.$filename;
+                $company->imagen = 'img/company/'.$filename;
             }
 
                 $company->nombre = $request->nombre;

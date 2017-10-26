@@ -30,11 +30,10 @@
                                 <div class="logo_empresa">
                                     <img src="http://elebeweb.com/2016/emprendedor/layout-cuatro/images/svg-pegado-428.svg" alt="">
                                 </div>
-                                <div class='item-c-v'>UNO</div>
-                                <div class='item-c-v'>DOS</div>
-                                <div class='item-c-v'>TRES</div>
-                                <div class='item-c-v'>CUATRO</div>
-                                <div class='item-c-v'>CINCO</div>
+                                <div class='item-c-v'>¿QUIÉNES SOMOS?</div>
+                                <div class='item-c-v'>SERVICIOS</div>
+                                <div class='item-c-v'>GALERÍA</div>
+                                <div class='item-c-v'>CONTACTO</div>
                             </div>
                             <div class="col-2 align-self-center ">
                                 <div class="row">
@@ -186,7 +185,7 @@
         </div>
     </div>
 
-    <div class="container" id='galeria'>
+    <div class="container margen_50" id='galeria'>
         <div class="row justify-content-center margen_50">
             <div class="col-11 col-sm-4 col-md-3">
                 <label for="exampleSelect2">Categoria</label>
@@ -215,11 +214,11 @@
             <div class="col-12 ">
                 <div class="row cambio">
                     @foreach($categorias as $categoria)
-                    <div class="col-11 col-sm-6 col-md-3 seleccion">
-                        <div class='al_100'>
-                            <img class="al_100" src="{{asset($categoria->imagen)}}" data-idcate="{{$categoria->id}}" class="d-block img-fluid">
+                    <div class="col seleccion">
+                        <div class='al_100 alineado_cent'>
+                            <img class="imagenes_galeria" src="{{asset($categoria->imagen)}}" data-idcate="{{$categoria->id}}" class="d-block img-fluid">
                         </div>
-                        <div class="">
+                        <div class="alineado_cent">
                             <h3>{{$categoria->nombre}}</h3>
                         </div>
                     </div>
@@ -240,31 +239,35 @@
     <div class="footer">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col alineado_cent">
-                    <a href="www.facebook.com/loolollo">
-                        <img class='icono_social' src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/facebook-normal.png" alt="">
-                        <p class='margen_10'>www.facebook.com/loolollo</p>
-                    </a>
-                </div>
-                <div class="col alineado_cent">
-                    <a href="www.twitter.com/loololl">
-                        <img src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/twitter-normal.png" alt="">
-                        <p class='margen_10'>www.twitter.com/loolollo</p>
-                    </a>
-                </div>
-                <div class="col alineado_cent">
-                    <a href="hola@loolollo.com">
-                        <img src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/mail-layer%201.png" alt="">
-                        <p class='margen_10'>hola@loolollo.com</p>
-                    </a>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col alineado_cent">
+                            <a href="www.facebook.com/loolollo">
+                                <img class='icono_social' src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/facebook-normal.png" alt="">
+                                <p class='margen_10'>www.facebook.com/loolollo</p>
+                            </a>
+                        </div>
+                        <div class="col alineado_cent">
+                            <a href="www.twitter.com/loololl">
+                                <img src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/twitter-normal.png" alt="">
+                                <p class='margen_10'>www.twitter.com/loolollo</p>
+                            </a>
+                        </div>
+                        <div class="col alineado_cent">
+                            <a href="hola@loolollo.com">
+                                <img src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/mail-layer%201.png" alt="">
+                                <p class='margen_10'>hola@loolollo.com</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row justify-content-center margen_50">
+            <div class="row justify-content-between margen_50">
                 <div class="col">
                     <img class='icono_social' src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/pin_direccion.png" alt="">
                     Dirección, Dirección, Dirección, Dirección, Direc.
                 </div>
-                <div class="col">
+                <div class="col alineado_der">
                     <img class='icono_social' src="http://elebeweb.com/2016/emprendedor/layout-nueve/images/reloj.png" alt="">
                     Horario, Horario,Horario,Horario,Horario,Horario,Hr.
                 </div>
