@@ -165,13 +165,6 @@ body {
     display: flex;
 
 }
-
-.margen_20{
-    margin:20px auto;
-}
-.margen_30{
-    margin:30px auto;
-}
 .fondo_nav{
 	width: 100%;
 	background-color: black;
@@ -291,12 +284,30 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.margen_10{
+    margin:10px auto;
+}
+.margen_30{
+    margin:30px auto;
+}
 .margen_50{
     margin: 50px auto;
 }
 
 .margen_20{
-    margin:20px 0;
+    margin:20px auto;
+}
+
+.margen_60{
+    margin:60px auto;
+}
+
+.margen_70{
+    margin:70px auto;
+}
+
+.margen_80{
+    margin:80px auto;
 }
 
 .padding_5{
@@ -490,7 +501,6 @@ body {
 
 .logo_empresa{
     max-width: 144px;
-    margin-top: 150px;
 }
 
 .logo_empresa img{
@@ -697,13 +707,27 @@ body {
     margin-top: 70px;
 }
 
+.titulo_4{
+    font-size: 37px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: openBold;
+}
+
+.linea_blanca_amarilla{
+    background-color: #ECE5C5;
+    width: 163px;
+    height: 5px;
+}
+
+.item-c-v{
+    align-self: center;
+}
+
 /* TEMPLATE 4 */
 @media (min-width: 688px){
     .wrap_bloque1{
         margin-top: 0%;
-    }
-    .logo_empresa{
-        margin-top: 50px;
     }
     .escritorio{
         display:block;
@@ -713,7 +737,6 @@ body {
     }
     .nav_escritorio{
         display: flex;
-        justify-content: center;
     }
     .nav_escritorio div{
         cursor: pointer;
